@@ -1,3 +1,5 @@
+// This is when you know the second last node and are sure that the head node is headed to a next node
+// Usually you to traverse from the LinkedList identity, the head, to the end find the NULL in the next
 #include <stdio.h>
 #include <stdlib.h>
 
