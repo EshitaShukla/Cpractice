@@ -1,22 +1,27 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int reverseBinary(int num){
+
+int reverse(int num){
+
   int rev = 0;
-  while(num > 0){
+
+  while(num>0){
     rev <<= 1;
+
     if(num & 1){
       rev ^= 1;
     }
-    num >>=1;
+    num >>= 1;
   }
+
   return rev;
 }
 
-int main(){
-  int a = 11;
+int main(void){
 
-  a = reverseBinary(a);
-  printf("%d", a);
+  int x=11;
+  int result = reverse(x);
 
-  return 0;
+  printf("The Reverse Binary Integer of %d (Hex: %x) is: %d (Hex: %x)", x, x, result, result );
 }
