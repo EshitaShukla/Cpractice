@@ -20,3 +20,27 @@ int main(){
   printf("%s", str);
   return 0;
 }
+// #include<stdio.h>
+// #include<stdlib.h>
+//
+// int main(){
+//
+//   char str[] = "Q*U*A*L*C*O*M*M";
+//   int i =0;
+//
+//   char * s = str;
+//
+//   for(i=0; *s!='\0'; i++){
+//     if(*s == '*'){
+//       s=s+1;
+//       str[i] = *s;
+//     }
+//     s = s+1;
+//   }
+//
+//   str[i] = '\0';
+//
+//   printf("%s", str);
+//
+//   return 0;
+// }
