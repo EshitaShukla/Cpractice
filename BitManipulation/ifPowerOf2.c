@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void powerof2(int x){
   if(x && !(x & (x-1))){
     printf("%d is a power of 2\n", x);

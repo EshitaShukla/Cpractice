@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-
 int main(void){
   int x = 11;
   int one = 0;
