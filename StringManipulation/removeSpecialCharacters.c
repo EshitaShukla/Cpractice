@@ -44,3 +44,34 @@ int main(){
 //
 //   return 0;
 // }
+
+// 
+// #include <stdio.h>
+//
+// void removeWords(char* s){
+//
+//   int count=0;
+//   int i;
+//
+//   for(i=0; s[i]; i++){
+//     if(s[i] != '*') s[count] = s[i];
+//     else{
+//       if(s[i+1] == '*') continue;
+//       s[count] = s[i+1];
+//       i++;
+//     }
+//     count++;
+//   }
+//   s[count] = '\0';
+// }
+//
+// int main(void){
+//
+//   char str[] = "*A*n*********i*r*u*d*h* T*i*w****ar*i*";
+//
+//   removeWords(str);
+//
+//   printf("%s", str);
+//   return 0;
+//
+// }
